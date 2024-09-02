@@ -1,0 +1,15 @@
+{
+  "name": "file_system",
+  "version": "1.0.0",
+  "description": "Basics of file system and HTTP ",
+  "main": "script.js",
+  "scripts": {
+    "start":"node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitish pandey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
