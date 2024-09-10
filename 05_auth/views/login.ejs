@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>login page</h1>
+    <h1>Login page</h1>
+    <form action="">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required>
+        <input type="submit" value="Login">
+    </form>
+    <script>
+        document.querySelector('form').addEventListener('submit',async(e)=>{
+          e.preventDefault();
+          const email = document.querySelector('#email').value;
+          const password = document.querySelector('#password').value;
+              console.log(email,password);
+              
+        });
+
+        
+
+    </script>
 </body>
 </html>
